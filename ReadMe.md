@@ -36,5 +36,3 @@ It’s also open source, so if you see ways to improve it — whether that’s m
 ## License
 
 [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
-
-PS: By NonCommerical 
