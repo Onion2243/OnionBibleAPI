@@ -1,14 +1,37 @@
 # Critical Import Statements, Python And Flask
-from flask import Flask, request, jsonify
-import random
-import time
-import schedule
-import threading
-import logging
+try:
+    from flask import Flask, request, jsonify
+    import random
+    import time
+    import schedule
+    import threading
+    import logging
+except ModuleNotFoundError:
+    import subprocess
+    import sys
+    ask = input("It Would Appear You Do Not Have All Of The Packages Needed To Run The API Installed, Would You Like To Install Them [y/n]: ")
+
+    if ask.lower() == "yes" or ask.lower() == "y":
+        try:
+            print("Installing Dependencies Flask And Scheduling...")
+            subprocess.run([sys.executable, "-m", "pip", "install", "flask"], check=True)
+            subprocess.run([sys.executable, "-m", "pip", "install", "schedule"], check=True)
+        except subprocess.CalledProcessError:
+            try:
+                print("Regular Install Failed, It Would Appear You Are Using MacOS, Switching Install Commands")
+                subprocess.run([sys.executable, "-m", "pip3", "install", "flask"], check=True)
+                subprocess.run([sys.executable, "-m", "pip3", "install", "schedule"], check=True)
+            except subprocess.CalledProcessError:
+                print("Both Installations Failed, Which Means You Are Using Python Through An Unsupported Method, Or Pip Is Not Working, If So, Please Fix The Issue And Attempt To Run The Program Again, Or Install Flask And Schedule Manually")
+        print("Package Instllation Complete.")
+    elif ask.lower() == "no" or ask.lower() == "n":
+        print("Packages Not Installed, Quitting Program")
+    else:
+        print("Invalid Input, Closing Program")
 
 # Imports Questions For The 'Books'
-from Books.WomenOfBibleVol1.Sarah.sarah import Sarah_Questions
-from Books.WomenOfBibleVol1.Eve.eve import Eve_Questions, Eve_Verses
+from Books.WomenOfBibleVol1.Sarah.sarah import Sarah_Questions, Sarah_Verses, Sarah_Scripture
+from Books.WomenOfBibleVol1.Eve.eve import Eve_Questions, Eve_Verses, Eve_Scripture
 
 # Imports Verse Of The Day
 from VersesOfTheDayList.ListOfVerses import ListOfVerses
@@ -64,19 +87,28 @@ def getVerseOfTheDay():
 @app.route('/Books/<book>/<topic>/Question/<question>', methods=['GET'])
 def Books_Questions(book, topic, question):
     if book == "WomenOfBibleVol1":
-        if topic == "Eve":
+        if topic == "Eve, Mother Of All Living":
             return Eve_Questions(topic, question)
-        if topic == "Sarah":
+        if topic == "Sarah, Mother Of Nations":
             return Sarah_Questions(topic, question)
 
 # Verses For The 'Books'
 @app.route('/Books/<book>/<topic>/Verse/<verse>', methods=['GET'])
 def Books_Verses(book, topic, verse):
     if book == "WomenOfBibleVol1":
-        if topic == "Eve":
+        if topic == "Eve, Mother Of All Living":
             return Eve_Verses(topic, verse)
-        if topic == "Sarah":
-            return Sarah_Questions(topic, verse)
+        if topic == "Sarah, Mother Of Nations":
+            return Sarah_Verses(topic, verse)
+
+# Scripture For The 'Books'
+@app.route('/Books/<book>/<topic>/Scripture/<scripture>', methods=['GET'])
+def Books_Scriptures(book, topic, scripture):
+    if book == "WomenOfBibleVol1":
+        if topic == "Eve, Mother Of All Living":
+            return Eve_Scripture(topic, scripture)
+        if topic == "Sarah, Mother Of Nations":
+            return Sarah_Scripture(topic, scripture)
 
 
 @app.route('/<Version>/Chapters/<Chapter>')
@@ -92,7 +124,7 @@ def Bible(Version, Chapter):
                 pass  # Handle error if chapter is out of range or invalid
 
 
-# Runs The Flask Application
+# Runs The Flask Application,
 if __name__ == '__main__':
     app.run(debug=True)
 
