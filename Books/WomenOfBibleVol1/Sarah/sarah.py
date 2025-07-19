@@ -84,7 +84,7 @@ def Sarah_Verses(topic, question_verse):
     index = verse_map.get(question_verse)
 
     if index is not None and index < len(Verse):
-        return jsonify({"verse": Verse[index]})
+        return jsonify({f"{topic}, {question_verse}": Verse[index]})
     else:
         return jsonify({"error": "Invalid verse reference"}), 404
 
@@ -95,7 +95,7 @@ def Sarah_Scripture(topic, scripture):
         <b>22-</b><p></p>
         """,  # Question #
 
-    scripture = [
+    Scripture = [
         """<h2>Genesis 11:27</h2>
         <br>
         <b>27-</b><p>This is the account of Terah’s family line.
@@ -129,6 +129,6 @@ def Sarah_Scripture(topic, scripture):
     index = scripture_map.get(scripture)
 
     if index is not None and index < len(scripture):
-        return jsonify({"verse": scripture[index]})
+        return jsonify({f"{topic}, {scripture}": Scripture[index]})
     else:
         return jsonify({"error": "Invalid verse reference"}), 404

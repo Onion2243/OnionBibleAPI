@@ -87,9 +87,11 @@ def Eve_Verses(topic, question_verse):
     index = verse_map.get(question_verse)
 
     if index is not None and index < len(Verse):
-        return jsonify({"verse": Verse[index]})
+        return jsonify({f"{topic}, {question_verse}": Verse[index]})
     else:
         return jsonify({"error": "Invalid verse reference"}), 404
+
+
 
 def Eve_Scripture(topic, scripture):
     TEMPLATE_FOR_SCRIPTURE = """<h2>Genesis 2:21-22</h2>
@@ -284,7 +286,7 @@ def Eve_Scripture(topic, scripture):
     index = scripture_map.get(scripture)
 
     if index is not None and index < len(Scripture):
-        return jsonify({"verse": Scripture[index]})
+        return jsonify({f"{topic}, {scripture}": Scripture[index]})
     else:
         return jsonify({"error": "Invalid verse reference"}), 404
 
