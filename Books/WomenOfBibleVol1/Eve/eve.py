@@ -103,166 +103,113 @@ def Eve_Scripture(topic, scripture):
     Scripture = [
         """
         <br>
-        <b>21-</b><p>So the Lord God caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man’s ribs[a] and then closed up the place with flesh. </p>
-        <b>22-</b><p>Then the Lord God made a woman from the rib[b] he had taken out of the man, and he brought her to the man.</p>
+        <p><b>21-</b> So the Lord God caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man’s ribs[a] and then closed up the place with flesh.</p>
+        <p><b>22-</b> Then the Lord God made a woman from the rib[b] he had taken out of the man, and he brought her to the man.</p>
         """, # Question 1
 
         """
         <br>
-        <b>20-</b><p>So the man gave names to all the livestock, the birds in the sky and all the wild animals.
-        <br>
-        But for Adam[a] no suitable helper was found.</p>
+        <p><b>20-</b> So the man gave names to all the livestock, the birds in the sky and all the wild animals.<br><br>But for Adam[a] no suitable helper was found.</p>
         """,  # Question 2
 
         """
         <br>
-        <b>22-</b><p>Then the Lord God made a woman from the rib[b] he had taken out of the man, and he brought her to the man.</p>
+        <p><b>22-</b> Then the Lord God made a woman from the rib[b] he had taken out of the man, and he brought her to the man.</p>
         """,  # Question 3
 
-        """<h2>1 Corinthians 11:3</h2>
-        <br>
-        <b>3-</b><p>But I want you to realize that the head of every man is Christ, and the head of the woman is man,[a] and the head of Christ is God.</p>
-        <br>
-        <h2>Ephesians 5:22</h2>
-        <br>
-        <b>22-</b><p>Wives, submit yourselves to your own husbands as you do to the Lord.</p>
+        """<br>
+        <h2>1 Corinthians 11:3</h2><br>
+        <p><b>3-</b> But I want you to realize that the head of every man is Christ, and the head of the woman is man,[a] and the head of Christ is God.</p><br>
+        <h2>Ephesians 5:22</h2><br>
+        <p><b>22-</b> Wives, submit yourselves to your own husbands as you do to the Lord.</p>
         """,  # Question 4
 
-        """<h2>Genesis Matthew 19:3-9</h2>
-        <br>
-        <b>3-</b><p>Some Pharisees came to him to test him. They asked, “Is it lawful for a man to divorce his wife for any and every reason?”</p>
-        <br>
-        <b>4-</b><p>[a]Haven’t you read,” he replied, “that at the beginning the Creator ‘made them male and female,’</p>
-        <br>
-        <b>5-</b><p>and said, ‘For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh’[b]?</p>
-        <br>
-        <b>6-</b><p>So they are no longer two, but one flesh. Therefore what God has joined together, let no one separate.”</p>
-        <br>
-        <b>7-</b><p>“Why then,” they asked, “did Moses command that a man give his wife a certificate of divorce and send her away?”</p>
-        <br>
-        <b>8-</b><p>Jesus replied, “Moses permitted you to divorce your wives because your hearts were hard. But it was not this way from the beginning.</p>
-        <br>
-        <b>9-</b><p>I tell you that anyone who divorces his wife, except for sexual immorality, and marries another woman commits adultery.”</p>
+        """<h2>Genesis Matthew 19:3-9</h2><br>
+        <p><b>3-</b> Some Pharisees came to him to test him. They asked, “Is it lawful for a man to divorce his wife for any and every reason?”</p><br>
+        <p><b>4-</b> [a]Haven’t you read,” he replied, “that at the beginning the Creator ‘made them male and female,’</p><br>
+        <p><b>5-</b> and said, ‘For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh’[b]?</p><br>
+        <p><b>6-</b> So they are no longer two, but one flesh. Therefore what God has joined together, let no one separate.”</p><br>
+        <p><b>7-</b> “Why then,” they asked, “did Moses command that a man give his wife a certificate of divorce and send her away?”</p><br>
+        <p><b>8-</b> Jesus replied, “Moses permitted you to divorce your wives because your hearts were hard. But it was not this way from the beginning.</p><br>
+        <p><b>9-</b> I tell you that anyone who divorces his wife, except for sexual immorality, and marries another woman commits adultery.”</p>
         """,  # Question 5
 
         """
         <br>
-        <b>8-</b><p>Now the Lord God had planted a garden in the east, in Eden; and there he put the man he had formed. </p>
-        <b>9-</b><p>The Lord God made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil.</p>
-        """,  # Question 6 & 6B
-
-        """<h2>Genesis 2:15</h2>
-        <br>
-        <b>15-</b><p>The Lord God took the man and put him in the Garden of Eden to work it and take care of it.</p>
-        <br>
-        <h2>Genesis 2:20</h2>
-        <br>
-        <b>20-</b><p>So the man gave names to all the livestock, the birds in the sky and all the wild animals.
-        <br>
-        But for Adam[a] no suitable helper was found.</p>
-        """,  # Question 7
+        <p><b>8-</b> Now the Lord God had planted a garden in the east, in Eden; and there he put the man he had formed.</p>
+        <p><b>9-</b> The Lord God made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil.</p>
+        """,  # Question 6
 
         """
         <br>
-        <b>21-</b><p>Adam and his wife were both naked, and they felt no shame.</p>
+        <p><b>8-</b> Now the Lord God had planted a garden in the east, in Eden; and there he put the man he had formed.</p>
+        <p><b>9-</b> The Lord God made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil.</p>
+        """,  # Question 7
+
+        """<h2>Genesis 2:15</h2><br>
+        <p><b>15-</b> The Lord God took the man and put him in the Garden of Eden to work it and take care of it.</p><br>
+        <h2>Genesis 2:20</h2><br>
+        <p><b>20-</b> So the man gave names to all the livestock, the birds in the sky and all the wild animals.<br><br>But for Adam[a] no suitable helper was found.</p>
         """,  # Question 8
 
         """
         <br>
-        <b>1-</b><p>Now the serpent was more crafty than any of the wild animals the Lord God had made. He said to the woman, “Did God really say, ‘You must not eat from any tree in the garden’?”</p>
-        <br>
-        <b>2-</b><p>The woman said to the serpent, “We may eat fruit from the trees in the garden, </p>
-        <br>
-        <b>3-</b><p> but God did say, ‘You must not eat fruit from the tree that is in the middle of the garden, and you must not touch it, or you will die.’”</p>
-        <br>
-        <b>4-</b><p>“You will not certainly die,” the serpent said to the woman.</p>
-        <br>
-        <b>5-</b><p>“For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”</p>
-        <br>
-        <b>6-</b><p>When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it.</p>
+        <p><b>25-</b> Adam and his wife were both naked, and they felt no shame.</p>        
         """,  # Question 9
 
-        """<h2>Genesis 3:6</h2>
-        <br>
-        <b>6-</b><p></p>
-        <br>
-        <h2>1 John 2:16</h2>
-        <br>
-        <b>16-</b><p>For everything in the world—the lust of the flesh, the lust of the eyes, and the pride of life—comes not from the Father but from the world.</p>
+        """
+        <p><b>1-</b> Now the serpent was more crafty than any of the wild animals the Lord God had made. He said to the woman, “Did God really say, ‘You must not eat from any tree in the garden’?”</p><br>
+        <p><b>2-</b> The woman said to the serpent, “We may eat fruit from the trees in the garden,</p><br>
+        <p><b>3-</b> but God did say, ‘You must not eat fruit from the tree that is in the middle of the garden, and you must not touch it, or you will die.’”</p><br>
+        <p><b>4-</b> “You will not certainly die,” the serpent said to the woman.</p><br>
+        <p><b>5-</b> “For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”</p><br>
+        <p><b>6-</b> When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it.</p>
+        """,  # Question 9
+
+        """ <br>
+        <h2>Genesis 3:6</h2><br>
+        <p><b>6-</b></p><br>
+        <h2>1 John 2:16</h2><br>
+        <p><b>16-</b> For everything in the world—the lust of the flesh, the lust of the eyes, and the pride of life—comes not from the Father but from the world.</p>
         """,  # Question 10
 
         """
         <br>
-        <b>6-</b><p>When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it.</p>
+        <p><b>6-</b> When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it.</p>
         """,  # Question 11
 
         """
         <br>
-        <b>13-</b><p>Then the Lord God said to the woman, “What is this you have done?”
-        <br>
-        The woman said, “The serpent deceived me, and I ate.”</p>
+        <p><b>13-</b> Then the Lord God said to the woman, “What is this you have done?”<br><br>The woman said, “The serpent deceived me, and I ate.”</p>
         """,  # Question 12
 
         """
         <br>
-        <b>14-</b><p>So the Lord God said to the serpent, “Because you have done this,
-
-&nbsp;&nbsp;&nbsp;&nbsp;“Cursed are you above all livestock<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and all wild animals!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;You will crawl on your belly<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and you will eat dust<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all the days of your life.</p>
-        <b>15-</b><p>&nbsp;&nbsp;&nbsp;&nbsp;And I will put enmity<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;between you and the woman,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and between your offspring[a] and hers;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;he will crush[b] your head,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and you will strike his heel.”</p>
-        <br>
-        <b>16-</b><p>To the woman he said,
-
-&nbsp;&nbsp;&nbsp;&nbsp;“I will make your pains in childbearing very severe;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with painful labor you will give birth to children.
-&nbsp;&nbsp;&nbsp;&nbsp;Your desire will be for your husband,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and he will rule over you.”</p>
+        <b>14-<p><b>14-</b> So the Lord God said to the serpent, “Because you have done this,<br>&nbsp;&nbsp;&nbsp;&nbsp;“Cursed are you above all livestock<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and all wild animals!<br>&nbsp;&nbsp;&nbsp;&nbsp;You will crawl on your belly<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and you will eat dust<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all the days of your life.</p>
+        <p><b>15-</b> &nbsp;&nbsp;&nbsp;&nbsp;And I will put enmity<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;between you and the woman,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and between your offspring[a] and hers;<br>&nbsp;&nbsp;&nbsp;&nbsp;he will crush[b] your head,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and you will strike his heel.”</p><br>
+        <p><b>16-</b> To the woman he said,<br>&nbsp;&nbsp;&nbsp;&nbsp;“I will make your pains in childbearing very severe;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with painful labor you will give birth to children.<br>&nbsp;&nbsp;&nbsp;&nbsp;Your desire will be for your husband,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and he will rule over you.”</p>
         """,  # Question 13
 
         """
-        <br>
-        <b>13-</b><p>For Adam was formed first, then Eve.</p>
-        <br>
-        <b>14-</b><p>And Adam was not the one deceived; it was the woman who was deceived and became a sinner. </p>
-        <br>
-        <b>15-</b><p>But women[a] will be saved through childbearing—if they continue in faith, love and holiness with propriety.</p>
+        <p><b>13-</b> For Adam was formed first, then Eve.</p><br>
+        <p><b>14-</b> And Adam was not the one deceived; it was the woman who was deceived and became a sinner.</p><br>
+        <p><b>15-</b> But women[a] will be saved through childbearing—if they continue in faith, love and holiness with propriety.</p>
         """,  # Question 14
 
         """
-        <br>
-        <b>1-</b><p>Adam[a] made love to his wife Eve, and she became pregnant and gave birth to Cain.[b] She said, “With the help of the Lord I have brought forth[c] a man.”</p>
-        <br>
-        <b>2-</b><p>Later she gave birth to his brother Abel. Now Abel kept flocks, and Cain worked the soil. </p>
-        <br>
-        <b>3-</b><p>In the course of time Cain brought some of the fruits of the soil as an offering to the Lord.</p>
-        <br>
-        <b>4-</b><p> And Abel also brought an offering—fat portions from some of the firstborn of his flock. The Lord looked with favor on Abel and his offering,</p>
-        <br>
-        <b>5-</b><p> but on Cain and his offering he did not look with favor. So Cain was very angry, and his face was downcast.</p>
-        <br>
-        <b>6-</b><p>Then the Lord said to Cain, “Why are you angry? Why is your face downcast?</p>
-        <br>
-        <b>7-</b><p>If you do what is right, will you not be accepted? But if you do not do what is right, sin is crouching at your door; it desires to have you, but you must rule over it.”</p>
-        <br>
-        <b>8-</b><p>Now Cain said to his brother Abel, “Let’s go out to the field.”[d] While they were in the field, Cain attacked his brother Abel and killed him.</p>
-        <br>
-        <b>9-</b><p>Then the Lord said to Cain, “Where is your brother Abel?” “I don’t know,” he replied. “Am I my brother’s keeper?”</p>
-        <br>
-        <b>10-</b><p>The Lord said, “What have you done? Listen! Your brother’s blood cries out to me from the ground.</p>
-        <br>
-        <b>11-</b><p>Now you are under a curse and driven from the ground, which opened its mouth to receive your brother’s blood from your hand.</p>
-        <br>
-        <b>12-</b><p>When you work the ground, it will no longer yield its crops for you. You will be a restless wanderer on the earth.”</p>
+        <p><b>1-</b> Adam[a] made love to his wife Eve, and she became pregnant and gave birth to Cain.[b] She said, “With the help of the Lord I have brought forth[c] a man.”</p><br>
+        <p><b>2-</b> Later she gave birth to his brother Abel. Now Abel kept flocks, and Cain worked the soil.</p><br>
+        <p><b>3-</b> In the course of time Cain brought some of the fruits of the soil as an offering to the Lord.</p><br>
+        <p><b>4-</b> And Abel also brought an offering—fat portions from some of the firstborn of his flock. The Lord looked with favor on Abel and his offering,</p><br>
+        <p><b>5-</b> but on Cain and his offering he did not look with favor. So Cain was very angry, and his face was downcast.</p><br>
+        <p><b>6-</b> Then the Lord said to Cain, “Why are you angry? Why is your face downcast?</p><br>
+        <p><b>7-</b> If you do what is right, will you not be accepted? But if you do not do what is right, sin is crouching at your door; it desires to have you, but you must rule over it.”</p><br>
+        <p><b>8-</b> Now Cain said to his brother Abel, “Let’s go out to the field.”[d] While they were in the field, Cain attacked his brother Abel and killed him.</p><br>
+        <p><b>9-</b> Then the Lord said to Cain, “Where is your brother Abel?” “I don’t know,” he replied. “Am I my brother’s keeper?”</p><br>
+        <p><b>10-</b> The Lord said, “What have you done? Listen! Your brother’s blood cries out to me from the ground.</p><br>
+        <p><b>11-</b> Now you are under a curse and driven from the ground, which opened its mouth to receive your brother’s blood from your hand.</p><br>
+        <p><b>12-</b> When you work the ground, it will no longer yield its crops for you. You will be a restless wanderer on the earth.”</p>
         """,  # Question 15
-
-
     ]
 
     scripture_map = {
@@ -281,6 +228,7 @@ def Eve_Scripture(topic, scripture):
         "Scripture13": 12,
         "Scripture14": 13,
         "Scripture15": 14,
+        "Scripture16": 15,
     }
 
     index = scripture_map.get(scripture)

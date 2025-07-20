@@ -91,6 +91,10 @@ def Books_Questions(book, topic, question):
             return Eve_Questions(topic, question)
         if topic == "Sarah, Mother Of Nations":
             return Sarah_Questions(topic, question)
+        if topic == "Lot's Wife":
+            return Sarah_Scripture(topic, question)
+        if topic == "Rebekah, A Lovely Maiden":
+            return Sarah_Scripture(topic, question)
 
 # Verses For The 'Books'
 @app.route('/Books/<book>/<topic>/Verse/<verse>', methods=['GET'])
@@ -100,6 +104,10 @@ def Books_Verses(book, topic, verse):
             return Eve_Verses(topic, verse)
         if topic == "Sarah, Mother Of Nations":
             return Sarah_Verses(topic, verse)
+        if topic == "Lot's Wife":
+            return Sarah_Scripture(topic, verse)
+        if topic == "Rebekah, A Lovely Maiden":
+            return Sarah_Scripture(topic, verse)
 
 # Scripture For The 'Books'
 @app.route('/Books/<book>/<topic>/Scripture/<scripture>', methods=['GET'])
@@ -108,6 +116,10 @@ def Books_Scriptures(book, topic, scripture):
         if topic == "Eve, Mother Of All Living":
             return Eve_Scripture(topic, scripture)
         if topic == "Sarah, Mother Of Nations":
+            return Sarah_Scripture(topic, scripture)
+        if topic == "Lot's Wife":
+            return Sarah_Scripture(topic, scripture)
+        if topic == "Rebekah, A Lovely Maiden":
             return Sarah_Scripture(topic, scripture)
 
 
