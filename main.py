@@ -32,6 +32,8 @@ except ModuleNotFoundError:
 # Imports Questions For The 'Books'
 from Books.WomenOfBibleVol1.Sarah.sarah import Sarah_Questions, Sarah_Verses, Sarah_Scripture
 from Books.WomenOfBibleVol1.Eve.eve import Eve_Questions, Eve_Verses, Eve_Scripture
+from Books.WomenOfBibleVol1.LotsWife.lotswife import LotWife_Questions, LotWife_Verses, LotWife_Scripture
+from Books.WomenOfBibleVol1.Rebekah.rebekah import Rebekah_Questions, Rebekah_Verses, Rebekah_Scripture
 
 # Imports Verse Of The Day
 from VersesOfTheDayList.ListOfVerses import ListOfVerses
@@ -92,9 +94,9 @@ def Books_Questions(book, topic, question):
         if topic == "Sarah, Mother Of Nations":
             return Sarah_Questions(topic, question)
         if topic == "Lot's Wife":
-            return Sarah_Scripture(topic, question)
+            return LotWife_Questions(topic, question)
         if topic == "Rebekah, A Lovely Maiden":
-            return Sarah_Scripture(topic, question)
+            return Rebekah_Questions(topic, question)
 
 # Verses For The 'Books'
 @app.route('/Books/<book>/<topic>/Verse/<verse>', methods=['GET'])
@@ -105,9 +107,9 @@ def Books_Verses(book, topic, verse):
         if topic == "Sarah, Mother Of Nations":
             return Sarah_Verses(topic, verse)
         if topic == "Lot's Wife":
-            return Sarah_Scripture(topic, verse)
+            return LotWife_Verses(topic, verse)
         if topic == "Rebekah, A Lovely Maiden":
-            return Sarah_Scripture(topic, verse)
+            return Rebekah_Verses(topic, verse)
 
 # Scripture For The 'Books'
 @app.route('/Books/<book>/<topic>/Scripture/<scripture>', methods=['GET'])
@@ -118,9 +120,9 @@ def Books_Scriptures(book, topic, scripture):
         if topic == "Sarah, Mother Of Nations":
             return Sarah_Scripture(topic, scripture)
         if topic == "Lot's Wife":
-            return Sarah_Scripture(topic, scripture)
+            return LotWife_Scripture(topic, scripture)
         if topic == "Rebekah, A Lovely Maiden":
-            return Sarah_Scripture(topic, scripture)
+            return Rebekah_Scripture(topic, scripture)
 
 
 @app.route('/<Version>/Chapters/<Chapter>')
